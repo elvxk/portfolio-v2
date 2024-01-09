@@ -1,6 +1,6 @@
 <h3 align="center">
   <samp
-    >&gt; <b>PORTVOLIO v.2</b
+    >&gt; <b>PORTFOLIO v.2</b
     >
   </samp>
 </h3>
