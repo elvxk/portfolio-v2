@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -9,8 +10,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        bgMain: "url('./src/assets/img/background/bgMain.webp')",
-        bgNav: "url('./src/assets/img/background/bgNav.webp')",
+        bgMain: "url('src/assets/img/background/bgMain.webp')",
+        bgNav: "url('src/assets/img/background/bgNav.webp')",
       },
       fontFamily: {
         RDRLino: ["RDRLino"],
