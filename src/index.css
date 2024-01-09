@@ -1,3 +1,102 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: RDRLino;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/RDRLino-Regular.woff2") format("woff2");
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: Hapna;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Hapna.woff2") format("woff2");
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/RDRCatalogueBold-Bold.woff2") format("woff2");
+  text-rendering: optimizeLegibility;
+}
+
+.borderer {
+  border: 14px solid;
+  border-image: url("/public/src/img/border/border.webp") 30 stretch;
+  background: url("/public/src/img/background/text_dark.webp"); /* Set the backround image */
+  -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-border {
+  /* text-transform: uppercase; */
+  border: 14px solid;
+  border-image: url("/public/src/img/border/border.webp") 30 stretch;
+  background: url("/public/src/img/background/text_dark.webp"); /* Set the backround image */
+  -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-border:hover {
+  /* text-transform: uppercase; */
+  border: 14px solid;
+  border-image: url("/public/src/img/border/border_hvr.webp") 30 stretch;
+  background: url("/public/src/img/background/blue_hvr.webp"); /* Set the backround image */
+  -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+  -webkit-text-fill-color: transparent;
+}
+
+.fbold {
+  /* text-transform: uppercase; */
+  background: url("/public/src/img/background/text_dark.webp"); /* Set the backround image */
+  -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+  -webkit-text-fill-color: transparent;
+}
+
+.fboldblue {
+  /* text-transform: uppercase; */
+  background: url("/public/src/img/background/blue_hvr.webp"); /* Set the backround image */
+  -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+  -webkit-text-fill-color: transparent;
+}
+
+.banner {
+  border: solid;
+  border-image: url("/public/src/img/border/double.webp") 30 repeat;
+  border-width: 17px 0 0;
+}
+
+.dotted {
+  background-image: url("/public/src/img/dotted.webp");
+  background-repeat: repeat-x;
+  background-size: auto 20px;
+  height: 30px;
+  width: 100%;
+}
+
+.strip {
+  border: solid;
+  border-image: url("/public/src/img/border/border.webp") 30 repeat;
+  border-width: 14px 0 0;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/public/src/img/background/bgMain.webp") repeat;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+  background: url("/public/src/img/background/text_dark.webp") repeat;
+}
