@@ -17,7 +17,7 @@ const App = () => {
       <Footer />
 
       <ScrollToTop
-        className="h-8 w-8 text-brown rounded-full flex justify-center items-center bg-black/75 hover:bg-blue"
+        className="h-8 w-8 text-brown rounded-full flex justify-center items-center bg-black hover:bg-blue"
         component={<ion-icon name="chevron-up-outline"></ion-icon>}
         smooth
       />
