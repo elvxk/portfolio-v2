@@ -4,6 +4,7 @@ import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
   return (
@@ -14,6 +15,12 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
+
+      <ScrollToTop
+        className="h-8 w-8 text-brown rounded-full flex justify-center items-center bg-black/75 hover:bg-blue"
+        component={<ion-icon name="chevron-up-outline"></ion-icon>}
+        smooth
+      />
     </>
   );
 };
