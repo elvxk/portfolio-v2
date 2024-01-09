@@ -8,7 +8,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center">
           <img
             draggable="false"
-            src="../src/assets/img/logo.webp"
+            src="../assets/img/logo.webp"
             alt="Pradipta R. Sandri Logo"
           />
         </a>
