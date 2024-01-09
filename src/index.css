@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .bgMain {
-  background-image: url("./src/assets/img/background/bgMain.webp");
+  background-image: url("./assets/img/background/bgMain.webp");
 }
 
 .bgNav {
-  background-image: url("./src/assets/img/background/bgNav.webp");
+  background-image: url("./assets/img/background/bgNav.webp");
 }
 
 @font-face {
