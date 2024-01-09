@@ -1,3 +1,5 @@
+import logo from "../assets/img/logo.webp";
+
 const Navbar = () => {
   return (
     <nav
@@ -6,11 +8,7 @@ const Navbar = () => {
     >
       <div className="max-w-screen-xl flex justify-between items-center px-4 py-2 mx-auto">
         <a href="#" className="flex items-center">
-          <img
-            draggable="false"
-            src="../assets/img/logo.webp"
-            alt="Pradipta R. Sandri Logo"
-          />
+          <img draggable="false" src={logo} alt="Pradipta R. Sandri Logo" />
         </a>
 
         <button
