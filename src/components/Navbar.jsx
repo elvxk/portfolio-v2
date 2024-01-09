@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav
       x-data="{ open: false }"
-      className="bg-bgNav border-b-4 border-black sticky top-0 z-50"
+      className="bgNav border-b-4 border-black sticky top-0 z-50"
     >
       <div className="max-w-screen-xl flex justify-between items-center px-4 py-2 mx-auto">
         <a href="#" className="flex items-center">
@@ -77,7 +77,7 @@ const Navbar = () => {
       </div>
       <div
         x-show="open"
-        className="block xl:hidden px-4 py-4 bg-bgNav border-t-4 border-black"
+        className="block xl:hidden px-4 py-4 bgNav border-t-4 border-black"
       >
         <ul className="flex justify-between">
           <li>

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.bgMain {
+  background-image: url("./src/assets/img/background/bgMain.webp");
+}
+
+.bgNav {
+  background-image: url("./src/assets/img/background/bgNav.webp");
+}
+
 @font-face {
   font-family: RDRLino;
   font-style: normal;

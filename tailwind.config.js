@@ -9,10 +9,10 @@ export default {
       blue: "#043a4e",
     },
     extend: {
-      backgroundImage: {
-        bgMain: "url('src/assets/img/background/bgMain.webp')",
-        bgNav: "url('src/assets/img/background/bgNav.webp')",
-      },
+      // backgroundImage: {
+      //   bgMain: "url('./src/assets/img/background/bgMain.webp')",
+      //   bgNav: "url('./src/assets/img/background/bgNav.webp')",
+      // },
       fontFamily: {
         RDRLino: ["RDRLino"],
         Hapna: ["Hapna"],
